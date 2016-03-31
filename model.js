@@ -4,7 +4,7 @@ var data = [
   {id: 3, name: "Dilraj Singh", background: "This is also a background", year: "FILL", img: ""},
   {id: 4, name: "Leo Wong", background: "Developer", year: "Junior", img: "imgs/leo.jpg"},
   {id: 5, name: "Hui Chen", background: "This is the background", year: "FILL", img: ""},
-  {id: 6, name: "Clement Roche", background: "UPS Extension Student", year: "", img: “imgs/clement.jpg“}
+  {id: 6, name: "Clement Roche", background: "UPS Extension Student", year: "", img: "imgs/clement.jpg"}
 ];
 
 var Profile = React.createClass({
