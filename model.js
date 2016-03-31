@@ -1,13 +1,11 @@
 var data = [
   {id: 1, name: "Anthony Wang", background: "Full-Stack Developer", year: "Senior", img: "imgs/me.jpg"},
-  {id: 2, name: "Israel Cruz", background: "This is a background", year: "FILL", img: ""},
-  {id: 3, name: "Ivan Wu", background: "This is another background", year: "FILL", img: ""},
-  {id: 4, name: "Dilraj Singh", background: "This is also a background", year: "FILL", img: ""},
-  {id: 5, name: "Leo Wong", background: "This is the background", year: "FILL", img: ""},
-  {id: 6, name: "Hui Chen", background: "This is the background", year: "FILL", img: ""},
-  {id: 7, name: "Clement Roche", background: "UPS Extension Student", year: "FILL", img: ""}
+  {id: 2, name: "Ivan Wu", background: "This is another background", year: "FILL", img: ""},
+  {id: 3, name: "Dilraj Singh", background: "This is also a background", year: "FILL", img: ""},
+  {id: 4, name: "Leo Wong", background: "Developer", year: "Junior", img: "imgs/leo.jpg"},
+  {id: 5, name: "Hui Chen", background: "This is the background", year: "FILL", img: ""},
+  {id: 6, name: "Clement Roche", background: "UPS Extension Student", year: "", img: “imgs/clement.jpg“}
 ];
-
 
 var Profile = React.createClass({
   getInitialState: function() {
