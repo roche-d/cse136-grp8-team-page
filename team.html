@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>The Team</title>
+    <meta name="description" content="The Team Page">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+
+    <script src="jquery-scrollto.js"></script>
+    <script src="stuff.js"></script>
+    <script type="text/babel" src="model.js"></script>
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a onclick="scrollToItem()">Home</a>
+        </li>
+        <li><a onclick="scrollToItem('#team-page')">The Team</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="slide-container black-background">
+      <div class="slide">
+        <div class="column-100">
+          <div class="title-container">
+            <h1>Team Powell</h1>
+            <img src="imgs/powell.png" alt="powell"/>
+          </div>
+        </div>
+        <div id ="learnmorebutton" class="learn-container">
+          <a class="learnmore" onclick="scrollToItem('#team-page')">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div id="team-page"class="slide-container">
+
+      <div class="title-container white-background">
+        <h1>Members of Team Powell</h1>
+      </div>
+      <div class="slide">
+        <div id="team-container" class="column-100">
+        </div>
+    </div>
+
+  </body>
+</html>
